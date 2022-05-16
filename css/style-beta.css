@@ -1,0 +1,35 @@
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(214,210,210,1) 0%, rgba(0,212,255,1) 33%, rgba(139,226,191,1) 92%);
+}
+
+.marquee_titulo{
+    font-size:10rem;
+    
+}
+
+.div_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    
+}
+
+
+.div_container a{
+    width: 10rem;
+    height: 5rem;
+    background-color: darkcyan;
+    text-decoration: none;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem 0rem 0rem 0rem;
+    color: beige;
+    font-size: 3rem;
+}
+
+a:hover{
+    background-color: rgb(112, 216, 8);
+}
